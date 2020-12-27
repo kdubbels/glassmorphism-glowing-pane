@@ -43,7 +43,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   function toggleDarkMode() {
-    console.log(darkMode);
     if (darkMode) {
       document.querySelector('body').style.background = 'white';
     } else {
