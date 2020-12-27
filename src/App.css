@@ -37,6 +37,7 @@ html, body {
 .display {
   background: url('galaxy2.jpg');
   animation: animateGlow 180s ease infinite;
+  border-radius: 10px;
 }
 
 .display.light-mode {
@@ -54,7 +55,7 @@ html, body {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 8px );
   -webkit-backdrop-filter: blur( 8px );
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .display__time:after {
