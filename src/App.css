@@ -34,7 +34,7 @@ html, body {
 
 .display {
   background: url('galaxy2.jpg');
-  animation: animateGlow 120s ease infinite;
+  animation: animateGlow 180s ease infinite;
 }
 
 .display__time {
@@ -45,8 +45,7 @@ html, body {
   width: 620px;
   margin: 0;
   color: white;
-  background: rgba( 255, 255, 255, 0.4 );
-  opacity: 90%;
+  /* background: rgba( 255, 255, 255, 0.4 ); */
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 8px );
   -webkit-backdrop-filter: blur( 8px );
@@ -76,7 +75,7 @@ html, body {
     background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 60%;
   }
   100% {
     background-position: 0% 50%;
