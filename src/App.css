@@ -102,6 +102,7 @@ html, body {
   display: inline-block;
   width: 60px;
   height: 34px;
+  backdrop-filter: blur( 8px );
 }
 
 .switch input { 
@@ -117,7 +118,7 @@ html, body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #5639b4;
+  background:  #7e0fff;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -135,11 +136,7 @@ html, body {
 }
 
 input:checked + .slider {
-  background-color: #ff6677;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #ff6677;
+  filter: hue-rotate(90deg) saturate(300%);
 }
 
 input:checked + .slider:before {
