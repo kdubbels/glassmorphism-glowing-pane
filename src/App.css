@@ -45,7 +45,6 @@ html, body {
   width: 620px;
   margin: 0;
   color: white;
-  /* background: rgba( 255, 255, 255, 0.4 ); */
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 8px );
   -webkit-backdrop-filter: blur( 8px );
@@ -79,5 +78,13 @@ html, body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .display__time {
+    font-size: 3rem;
+    width: 320px;
+    letter-spacing: .5rem;
   }
 }
